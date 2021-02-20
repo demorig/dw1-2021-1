@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        address {
+            background: yellow;
+         /* Fazendo elemento ficar em linha */   
+         display: inline;
+         font-style: normal; /*Tira o Itálico */ 
+         /*Volta ao Sublinhado*/
+         text-decoration: underline ;
+
+        }
+        
+        strong{
+            color:red
+        }
+
+        mark{
+            background-color: aqua;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Formatação de texto</h1>
+    <!--Tag <u> = Underline (sublinhado) (NÃO USAR)-->
+        <!--Tag <address> = Endereço-->
+            <p>DrKutilson morava na <address>Rua do Sabe Desce
+           333 </address>, e seu E mail era
+        <address>urkutilson@gmail.com</address>
+        </p>
+        <!--<i> Italico (visual apenas)
+            <b> Negrito (bold) (visual apenas)
+            -->
+        <p>Ele estudava em uma <b>escola estadual</b> e sua matéria pre ferida era
+        <i>Matemática</i></p>
+        <!--
+          <strong> Texro mais importante (forte, em inglês) (SEMÂNTICA)
+          <em> Enfase (Emphasis) (SEMÂNTICA)
+        -->
+        <p>Ele estudava em uma <strong>escola estadual</strong>> e sua matéria pre ferida era
+        <em>Matemática</em></p>
+
+        <p>Ele também gosta de usar <mark>caneta marca texto</mark>
+        para destacar os textos mais importantes.
+        </p>
+        <!--
+       <strike> = traço através do texto (tachado) (OBSOLETO, não usar)
+
+        -->
+        <p>Sua professora achava que ele era<strike>meio burro</strike> 
+        não muito inteligente, já que sempre tinha dificuldades nas provas</p>
+
+        <!--
+            <del> texto apagado (SEÂNICO)
+        -->
+
+
+        <p>Sua professora achava que ele era<del>meio burro</del> 
+        não muito inteligente, já que sempre tinha dificuldades nas provas</p>
+
+        <p>Depois que fez a recuperação, sua nota foi de 6,7
+            <ins>o suficiente para a sua aprovação</ins> 
+        </p>
+
+        <!--
+            <sub> = texto Subscrito
+            <sup> = texto sobrescrito (SUPescrit)    
+        -->
+        <p>Orkutilson também gostava de fórmulas. Suas preferidas eram 
+            H<sub>2</sub>O e E = mc <sup>2</sup> 
+        </p>
+</body>
+</html>
