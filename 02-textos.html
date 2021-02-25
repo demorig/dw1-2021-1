@@ -22,13 +22,24 @@
         mark{
             background-color: aqua;
         }
-       
+
+       h1{
+           /* Valores para test-align:
+           left, right, centes, justify
+           */
+           text-align:center;
+       }
+       /* <p class="dir"> */
+       p.dir{
+           text-align:right; 
+       }
     </style>
 </head>
 <body>
     <h1>Formatação de texto</h1>
     <!--Tag <u> = Underline (sublinhado) (NÃO USAR)-->
         <!--Tag <address> = Endereço-->
+     <p class="dir">Hitória Baseadas em Fatos Reais.</p>       
             <p>DrKutilson morava na <address>Rua do Sabe Desce
            333 </address>, e seu E mail era
         <address>urkutilson@gmail.com</address>
@@ -42,7 +53,7 @@
           <strong> Texro mais importante (forte, em inglês) (SEMÂNTICA)
           <em> Enfase (Emphasis) (SEMÂNTICA)
         -->
-        <p>Ele estudava em uma <strong>escola estadual</strong>> e sua matéria pre ferida era
+        <p>Ele estudava em uma <strong>escola estadual</strong> e sua matéria pre ferida era
         <em>Matemática</em></p>
 
         <p>Ele também gosta de usar <mark>caneta marca texto</mark>
@@ -74,5 +85,35 @@
         <p>Orkutilson também gostava de fórmulas. Suas preferidas eram 
             H<sub>2</sub>O e E = mc <sup>2</sup> 
         </p>
+        <!--
+            <quote> citações no meio de um parágrafo
+            <blockquote> = um bloco de citação (com várias linhgas, por exemplo)    
+        -->
+        <p>Sua frase favorita era <quote>"Penso logo existo" (Descarte)</quote>. E seu trecho de música
+        preferido era:</p>
+        <blockquote>
+            Há tantos mundos diferentes<br>
+            Tantos sóis diferentes.<br>
+            E nós temos apenas um mundo, <br>
+            Mas vivemos em mundos diferentes. <br>
+            (Dire Straits, Brothers in Arms)
+        </blockquote> 
+
+        <!--
+            <abbr> = Definição de abreviações
+             <code> = representa códiogo de programação ou marcação
+
+
+        -->
+        <p>Em suas horas vagas, Orkutilson era um membro ativo
+             da <abbr title="Associação dos Moradores do Bairro do Limão">ASMOBALI</abbr>
+            e estudava
+             <abbr title="HyperText Markup Language">HTML</abbr>. Suas tags favoritas eram
+            <code>&lt;blockquote&gt;</code> e 
+             <code>&lt;address&gt;</code>.
+            </p>
+
+            <p class="dir"></class>><em> Autor desconhecido</em></p>
+
 </body>
 </html>
