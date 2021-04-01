@@ -1,0 +1,28 @@
+div.container {
+    background-color: darkgrey;
+    font-family: "IBM Plex Sans", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px; /* Espaçamento interno */
+    border-left: 7px dotted black;
+}
+
+/* divs internas */
+div.container div {
+    border: 1px solid red; 
+    padding: 12px;
+    margin-bottom: 16px; /* apenas a margem inferior */ 
+
+}
+
+#box1 {
+    background-color: goldenrod;
+}
+
+#box2 {
+    background-color: lightblue;
+
+}
+
+#box3 {
+    background-color: yellowgreen;
+    margin-bottom: 0;
+}
